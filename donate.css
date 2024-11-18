@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color:  #ff7200;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.donate-section {
+    background-color: white;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.donate-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff7200;
+}
+
+.donate-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.donate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.donate-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.donate-form input, 
+.donate-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.donate-form button {
+    background-color:  #ff7200;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-form button:hover {
+    background-color:  #ff7200;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9em;
+}
